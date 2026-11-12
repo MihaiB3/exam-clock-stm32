@@ -9,11 +9,11 @@ Sunt doar fișierele sursă, nu un proiect Android Studio complet. Le pui într-
 
 ## Protocol către placă
 
-Aplicația trimite linii text terminate cu `\n`: `T=<secunde>`, `PAUSE`, `RESUME`, `STOP`, `C=HH:MM:SS`, `START=HH:MM`, `END=HH:MM`, `BRIGHT=0-255`, `MSG=...`. Firmware-ul din `../src/main.c` le înțelege pe toate (vezi tabelul de comenzi din `../README.md`).
+Aplicația trimite linii text terminate cu `\n`: `T=<secunde>`, `PAUSE`, `RESUME`, `STOP`, `C=HH:MM:SS`, `START=HH:MM`, `END=HH:MM`, `BRIGHT=0-255`, `MSG=...`. Firmware-ul din `../src/main.c` le înțelege pe toate (vezi tabelul de comenzi din `../docs/GHID.md`).
 
 ## Probleme cunoscute (neremediate în aceste fișiere)
 
-Detalii și cod de înlocuire sunt în `../README.md`, secțiunea „Aplicația Android":
+Detalii și cod de înlocuire sunt în `../docs/GHID.md`, secțiunea „Aplicația Android":
 
 1. Butonul `Disconnect` trimite `STOP` înainte de deconectare, deci ar opri cronometrul în timpul unui examen.
 2. `connectLegacy()` se apelează pe firul UI și blochează interfața cât durează conectarea.
