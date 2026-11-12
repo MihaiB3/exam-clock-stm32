@@ -1,0 +1,7 @@
+.pio/
+.vscode/
+test/build/
+*.o
+*.elf
+*.bin
+*.map
