@@ -166,4 +166,5 @@ Nu am compilat codul Kotlin (nu am Android Studio aici), deci încearcă-l și s
 platformio.ini      configurația PlatformIO (STM32F103C8, ST-LINK)
 src/main.c          firmware-ul
 test/               teste ale logicii pe calculator (run_tests.sh)
+android/            sursele aplicației Android (Kotlin)
 ```
